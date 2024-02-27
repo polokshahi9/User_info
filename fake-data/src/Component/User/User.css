@@ -1,0 +1,42 @@
+.user_info{
+   
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    
+    
+}
+.user_info img{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+  
+   
+ 
+}
+.section_main{
+    margin-left: 40px;
+}
+.email_text{
+    color: blue;
+    text-decoration: underline;
+}
+.btn_menu{
+    padding: 10px 10px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.984);
+    border-radius: 5px;
+    color: rgba(6, 33, 206, 0.892);
+    cursor: pointer;
+
+
+}
+.btn_menu:hover{
+    background-color: rgba(6, 33, 206, 0.892);
+    color: white;
+}
