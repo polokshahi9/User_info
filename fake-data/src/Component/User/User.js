@@ -4,8 +4,6 @@ import './User.css';
 
 const User = (props) => {
     const {name, email, phone, photo, price} = props.data;
- 
-    
     return (
         <div className='user_info'>
             <img src={photo} alt="" />
@@ -16,11 +14,7 @@ const User = (props) => {
                 <h3>Yearly Salary: <small>{price}$</small> </h3>
                 <button className='btn_menu' onClick={() => props.handleClick(props.data)}>Add Friend</button>
             </div>
-          
-          
         </div>
-
-        
     );
    
 };

@@ -8,9 +8,6 @@ const Cart = (props) => {
         const totalPrice = cart[i];
         total = total + totalPrice.price;
     }
-    
-    
-
   
     return (
         <div className='cart'>
