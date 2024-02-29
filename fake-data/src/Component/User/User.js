@@ -13,6 +13,7 @@ const User = (props) => {
                 <h3>Phone:<small> {phone}</small></h3>
                 <h3>Yearly Salary: <small>{price}$</small> </h3>
                 <button className='btn_menu' onClick={() => props.handleClick(props.data)}>Add Friend</button>
+                <button>Show Number</button>
             </div>
         </div>
     );
